@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Alt text](/results/summary/component-main/design/desktop-design.jpg raw=true "Optional Title")
+(/results/summary/component-main/design/desktop-design.jpg raw=true "Optional Title")
 
 results-summary-component-main/design/desktop-design.jpg
 
