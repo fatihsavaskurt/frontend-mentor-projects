@@ -31,7 +31,7 @@ Users should be able to:
 
 [![Alt text(/results/summary/component-main/design/desktop-design.jpg raw=true "Optional Title")](https://github.com/fatihsavaskurt/frontend-mentor-projects/blob/5dc37054f492f4672ad7f0fe5edc6408e9d0ccc3/results-summary-component-main/design/desktop-design.jpg)
 
-results-summary-component-main/design/desktop-design.jpg
+
 
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
