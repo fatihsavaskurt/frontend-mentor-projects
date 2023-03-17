@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    height: 0;
+}
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: [col] 500px [col] 600px [col] 100px;
+    grid-template-rows: [row] 400px [row] 400px [row] ;
+    gap: 20px;
+
+
+}
+
+
+.daniel-grid{
+    background-color: hsl(263, 55%, 52%);
+
+}
+
+.jonathan-grid{
+    background-color: hsl(217, 19%, 35%);
+  
+}
+
+.jeanette-grid{
+    background-color:  hsl(0, 0%, 100%);
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+
+
+}
+
+.patrick-grid{
+    background-color: hsl(219, 29%, 14%);
+    grid-column-start: 2;
+    grid-column-start: 2;
+
+}
+
