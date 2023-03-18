@@ -1,0 +1,240 @@
+:root {
+    --clr-primary-400: 263 55% 52%;
+    --clr-secondary-400: 217 19% 35%;
+    --clr-secondary-500: 219 29% 14%;
+    --clr-neutral-100: 0 0% 100%;
+    --clr-neutral-200: 210 46% 95%;
+    --clr-neutral-300: 0 0% 81%;
+  
+    --ff-primary: "Barlow Semi Condensed", sans-serif;
+  
+    --fw-400: 500;
+    --fw-700: 600;
+  
+    --fs-300: 0.6875rem;
+    --fs-400: 0.8125rem;
+    --fs-500: 1.25rem;
+  }
+  
+
+
+body{
+    margin: 0;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-400);
+  
+    background-color: hsl(var(--clr-neutral-200));
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--fw-700);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+    
+}
+
+
+
+
+
+
+.flex{
+    display: flex;
+}
+
+.flow > *:where(:not(:first-child)) {
+    margin-top: var(--flow-spacer, 1em);
+  }
+  
+  .bg-primary-400 {
+    background: hsl(var(--clr-primary-400));
+  }
+  .bg-secondary-400 {
+    background: hsl(var(--clr-secondary-400));
+  }
+  .bg-secondary-500 {
+    background: hsl(var(--clr-secondary-500));
+  }
+  
+  .bg-neutral-100 {
+    background: hsl(var(--clr-neutral-100));
+  }
+  
+  .text-neutral-100 {
+    color: hsl(var(--clr-neutral-100));
+  }
+  .text-secondary-400 {
+    color: hsl(var(--clr-secondary-400));
+  }
+  .border-primary-400 {
+    border: 2px solid #a775f1;
+  }
+
+
+.testimonial .name {
+    font-size: var(--fs-400);
+    font-weight: var(--fw-400);
+    line-height: 1;
+  }
+
+  .testimonial .position {
+    font-size: var(--fs-300);
+    opacity: 0.5;
+  }
+
+
+
+
+
+
+
+
+
+
+.daniel-grid{
+    background-color: hsl(263, 55%, 52%);
+    grid-column: 1 / 3;
+    background-image: url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+    font-size: var(--fs-400);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+}
+
+.grid-container img {
+    width: 1.75rem;
+    border-radius: 50%;
+  }
+
+
+.grid-container .name {
+    font-size: var(--fs-400);
+    font-weight: var(--fw-400);
+    line-height: 1;
+  }
+
+
+  .grid-container .position {
+    font-size: var(--fs-300);
+    opacity: 0.5;
+  }
+
+  
+
+.patrick-grid{
+    background-color: hsl(219, 29%, 14%);
+    grid-row: 2;
+    grid-column: 2 / 4;
+    font-size: var(--fs-400);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+}
+
+.jonathan-grid{
+    background-color: hsl(217, 19%, 35%);
+    font-size: var(--fs-400);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+}
+
+.kira-grid{
+    background-color:hsl(0, 0%, 100%) ;
+    grid-row: 1 / 3;
+    grid-column: 4;
+    font-size: var(--fs-400);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+}
+
+.jeanette-grid{
+    background-color:hsl(0, 0%, 100%) ;
+    font-size: var(--fs-400);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
+}
+
+.daniel-grid .title{
+    font-size: var(--fs-500);
+    line-height: 1.2;
+}
+
+.daniel-grid .text{
+    opacity: 0.7;
+}
+
+.jonathan-grid .title{
+    font-size: var(--fs-500);
+    line-height: 1.2;
+}
+
+.jonathan-grid .text{
+    opacity: 0.7;
+}
+
+.patrick-grid .title{
+    font-size: var(--fs-500);
+    line-height: 1.2;
+}
+
+.patrick-grid .text{
+    opacity: 0.7;
+}
+
+.kira-grid .title{
+    font-size: var(--fs-500);
+    line-height: 1.2;
+}
+
+.kira-grid .text{
+    opacity: 0.7;
+}
+
+.jeanette-grid .title{
+    font-size: var(--fs-500);
+    line-height: 1.2;
+}
+
+.jeanette-grid .text{
+    opacity: 0.7;
+}
+
+
+
+
+
