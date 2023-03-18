@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    place-content: center;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: min(95%, 65rem);
+    margin-inline: auto;
+    padding: 200px;
+
+}
+
+.sedans-grid{
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 50px;
+    height: 460px;
+}
+
+.suvs-grid{
+    background-color:hsl(184, 100%, 22%) ;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 50px;
+    height: 460px;
+}
+
+.luxury-grid{
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 50px;
+    height: 460px;
+}
+
+.car-type{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.button{
+    padding-top:100px ;
+}
+
+button{
+    position: absolute;
+    cursor: pointer;
+    display: inline-block;
+    padding: 14px;
+    width: 146px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid var(--neu-gray);
+    font-family: inherit;
+    transition: all 0.2s ease-in-out;
+    font-size: 13.8px;
+}
+
+.statement{
+    line-height:1.6rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 700;
+
+}
+
+.luxury-grid button{
+    color:hsl(179, 100%, 13%);
+}
+
+.suvs-grid button{
+    color: hsl(184, 100%, 22%) ;
+}
+
+.sedans-grid button{
+    color:hsl(31, 77%, 52%);
+}
+
+
