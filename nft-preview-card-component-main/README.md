@@ -2,8 +2,6 @@
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
-# Frontend Mentor - QR code component
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -31,7 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+![Alt text(/results/summary/component-main/design/desktop-design.jpg raw=true "Optional Title")](https://github.com/fatihsavaskurt/frontend-mentor-projects/blob/676df7eea5add16cf685a1bbbad0908438570c16/nft-preview-card-component-main/design/equilibrium-desktop.png)
+
+![Alt text(/results/summary/component-main/design/desktop-design.jpg raw=true "Optional Title")](https://github.com/fatihsavaskurt/frontend-mentor-projects/blob/676df7eea5add16cf685a1bbbad0908438570c16/nft-preview-card-component-main/design/equilibrium-mobile.png)
 
 
 
@@ -45,13 +45,14 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- @Media Query
 
 
 
 
 ### What I learned
 
-I learned how to use CSS box model system (margin, padding, display method etc.). I learned what kind of situation use position and display and improved my usage.
+I learned how to use CSS box model system (margin, padding, display method etc.). I learned what kind of situation use position and display and improved my usage, CSS Media Query system.
 
 
 ### Useful resources
