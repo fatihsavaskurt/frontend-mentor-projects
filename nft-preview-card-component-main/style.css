@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+
+}
+.title-img{
+    width: 90%;
+    border-radius: 5%;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 20%;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5%;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.card-content{
+    text-align: left;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+.clock{
+    color: hsl(215, 51%, 70%);
+}
+.eth, .clock{
+    display: flex;
+}
+
+.eth-left{
+    display: flex;
+    justify-content: space-between;
+}
+.eth-img, .clock-img {
+    margin: 10px;
+    width: 20px;
+    height: 25px;
+}
+
+.profile{
+    display: inline-flex;
+}
+
+.avatar-img{
+    width: 45px;
+    border: 1px;
+    border-color: white;
+    border-radius: 120px;
+    border-style: groove;
+
+}
+
+.profile-text{
+    padding-left: 15px;
+
+}
+
+.profile-text span{
+    color: white;
+
+}
+.title{
+    color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 500px) {
+    .eth-info {
+      flex-direction: column;
+      width: 50%;
+    
+    }
+    .card{
+        background-color: hsl(216, 50%, 16%);
+        width: 100%;
+        display: inline-block;
+        padding: 20px;
+        text-align: center;
+        justify-content: center;
+        border-radius: 5%;
+        color: hsl(215, 51%, 70%);
+    
+    }
+    
+  }
