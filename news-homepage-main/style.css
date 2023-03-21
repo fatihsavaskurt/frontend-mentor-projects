@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(36, 100%, 99%);
+    font-size: 15px;
+}
+
+.container{
+    padding: 5% 25% 0 25%;
+    width:50%;
+}
+
+.navbar{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    
+}
+
+.navbar-img{
+    display: flex;
+    width: 50px;
+    height:50px;
+    padding-top: 30px;
+
+}
+
+.navbar-menu{
+    display: flex;
+}
+.nav{
+    padding: 15px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.heading{
+    display: inline-flex;
+    width: 95%;
+}
+
+
+.card-1-content{
+    display: flex;
+    margin:-60px 0 0 0;
+}
+
+
+
+.card-1-title{
+    display: flex;
+    align-items:center;
+    font-size: 50px;
+    width: 300px;
+    height: 250px;
+    color:hsl(240, 100%, 5%);
+    font-weight: 800;
+    
+}
+.card-1-text{
+    display: inline-table;
+    margin:105px 115px 0 auto;
+    align-items: center;
+    width: 290px;
+    color:hsl(240, 100%, 5%);
+    
+}
+
+.card-1-text button{
+    display: flex;
+    padding: 1em 2em 1em 2em;
+    margin-top: 20px;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.section-2{
+    display: flex;
+}
+
+.card-2{
+    background-color:hsl(240, 100%, 5%);
+    color: white;
+    height: 470px;
+    width: 300px;
+    line-height: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-2-main-title{
+    font-size: 30px;
+    color: hsl(35, 77%, 62%);
+    font-weight: 1000;
+}
+
+.card-2-title{
+    font-size: 20px;
+    font-weight: 900;
+}
+.card-2-text{
+    color: hsl(36, 100%, 99%);
+    opacity: 70%;
+}
+
+.card-2 p{
+    padding: 6px;
+}
+
+.card-2 hr{
+    opacity: 60%;
+    width: 300px;
+}
+
+.section-3{
+    display: flex;
+
+    
+}
+
+.card-retro{
+    display: flex;
+    padding: 0 0 0 20px;
+
+}
+
+.card-retro img{
+    height: 130px;
+    padding-right: 15px;
+}
+
+.number-3{
+    font-size: 25px;
+}
+.content-retro{
+    display: block;
+    width: 200px;
+    line-height: 15px;
+}
+
+.section-3-title{
+    font-size: 20px;
+}
+
+.number-3{
+    opacity: 60%;
+    font-weight: 700;
+    font-size: 29px
+}
+
+.section-3-title{
+    color:hsl(240, 100%, 5%); 
+    font-weight: 900;
+    font-size: 19px;
+}
+
+.section-3-text{
+    color:hsl(240, 100%, 5%);
+}
+
+.attribution{
+    padding-top: 50px;
+}
