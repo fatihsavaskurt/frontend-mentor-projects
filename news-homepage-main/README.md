@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Alt text(/results/summary/component-main/design/desktop-design.jpg raw=true "Optional Title")](https://github.com/fatihsavaskurt/frontend-mentor-projects/blob/676df7eea5add16cf685a1bbbad0908438570c16/nft-preview-card-component-main/design/equilibrium-desktop.png)
+![Alt text(/results/summary/component-main/design/desktop-design.jpg raw=true "Optional Title")](https://github.com/fatihsavaskurt/frontend-mentor-projects/blob/481fa347002b0a41954faa2d23e6a46761059c57/news-homepage-main/design/news.png)
 
-![Alt text(/results/summary/component-main/design/desktop-design.jpg raw=true "Optional Title")](https://github.com/fatihsavaskurt/frontend-mentor-projects/blob/676df7eea5add16cf685a1bbbad0908438570c16/nft-preview-card-component-main/design/equilibrium-mobile.png)
+
 
 
 
