@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 50px;
+    width: 92%;
+}
+.navbar{
+    display: flex;
+}
+
+.nav-menu{
+    padding-left: 60px;
+    display: flex;
+    
+}
+
+.nav-menu-right {
+    padding-left: 50%;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    height: 830px;
+    padding: 50px 0 0 150px;
+    width: 80%;
+}
+
+.header{
+    display: inline-block;
+    font-size: 90px;
+    width: 600px;
+    height: 200px;
+    font-weight: 900;
+}
+.text{
+    width: 43%;
+    font-size: 20px;
+    color: hsl(0, 0%, 41%);
+    padding-top: 20px;
+}
+
+.card-1-button{
+    display: flex;
+    margin:80px 0 100px 0;
+}
+
+.card-1-button button{
+    padding: 20px;
+    border: none;
+    border-radius: 10%;
+    width: 15%;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+}
+
+.card-2{
+    display: flex;
+    height: 75%;
+}
+
+.icons{
+    padding: 20px;
+}
+
+.dropdown{
+    display: flex;
+    position: relative;
+    display: inline-flex;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 15px 20px;
+    z-index: 1;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
