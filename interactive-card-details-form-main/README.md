@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-[![Alt text(/results/summary/component-main/design/desktop-design.jpg raw=true "Optional Title")](https://github.com/fatihsavaskurt/frontend-mentor-projects/blob/5dc37054f492f4672ad7f0fe5edc6408e9d0ccc3/results-summary-component-main/design/desktop-design.jpg)
+[![Alt text(/results/summary/component-main/design/desktop-design.jpg raw=true "Optional Title")](https://github.com/fatihsavaskurt/frontend-mentor-projects/blob/0cd2fdd4eadb79a0bbeebba7c2e8c57c85257d5a/interactive-card-details-form-main/images/card.png)
 
 
 
