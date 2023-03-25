@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:hsl(30, 38%, 92%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+
+.card-left img{
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.card-right{
+    height: 530px;
+    width: 310px;
+    background-color: white;
+
+}
+.content{
+    padding-left: 20px;
+    width: 220px;
+    padding-top: 10px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.product-type{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.card-right button{
+    width: 230px;
+    height: 50px;
+    background-color:#3d8168;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-right .product-title{
+    font-family: 'Fraunces', serif;
+}
+
+.card-right .product-text{
+    font-size: 19px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 200;
+}
+
+.price .price{
+    font-size: 34px;
+    color: #3d8168;
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+}
+
+.price .non-price{
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+}
+
+.icon{
+    padding-right: 5px;
+}
+
+.add-button{
+    font-weight: 700;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color:hsl(30, 38%, 92%);
+    }
+
+    .container{
+        flex-direction: column;
+        height: 450px;
+    }
+
+    .card-left img{
+        height: 250px;
+        width: 300px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+
+    .card-right{
+        height: 530px;
+        width: 300px;
+        padding-bottom: 10px;
+        background-color: white;
+    
+    }
+
+    .content{
+        width: 250px;
+    }
+
+    .card-right button{
+        width: 270px;
+    }
+    
+}
