@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.navbar{
+    background-color: #3ebfff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    
+}
+
+.nav-menu{
+    display: flex;
+    color: white;
+}
+
+.nav-menu .btn{
+    background-color: white;
+    border-radius: 190px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+}
+
+.menu{
+    padding: 25px;
+}
+.header p{
+    position: absolute;
+    z-index: 1;
+    left:55vh;
+    top: 110px;
+    color: hsl(0, 0%, 100%);
+    font-size: 65px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+}
+.header .header-img{
+    position: relative;
+    width: 189vh;
+    height: 60vh;
+
+}
+
+.header .arrow-img{
+    position: absolute;
+    top: 300px;
+    left: 920px;
+}
+
+.section-1{
+    display: flex;
+    
+}
+
+.content{
+    padding: 190px;
+    height: 300px;
+    width: 550px;
+}
+
+.section-1 .left-card{
+    background-color: #fffbf8;
+    width: 2590px;
+}
+
+.section-1 img{
+    width: 93vh;
+}
+
+.content .title{
+    color: hsl(212, 27%, 19%);
+    font-weight: 700;
+    font-size: 40px;
+    width: 450px;
+    padding-bottom: 30px;
+    font-family: 'Fraunces', serif;
+}
+
+.content .content-text{
+    padding-bottom: 30px;
+    width: 380px;
+    color: hsl(212, 27%, 19%);
+    line-height: 1.5rem;
+}
+
+.content .content-button-1{
+    border-radius: none;
+    border: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color:#fffbf8 ;
+    text-decoration: underline;
+    text-underline-position: initial;
+    text-decoration-color:hsl(51, 100%, 49%) ;
+    text-decoration-thickness: 6px;
+    font-family: 'Fraunces', serif;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fffbf8;
+}
+
+.section-2 img{
+    width: 98vh;
+    padding-right: 7px;
+}
+
+.content .content-button-2{
+    border-radius: none;
+    border: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color:#fffbf8 ;
+    text-decoration: underline;
+    text-underline-position: initial;
+    text-decoration-color:hsl(7, 99%, 70%) ;
+    text-decoration-thickness: 6px;
+    font-family: 'Fraunces', serif;
+}
+
+.section-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3 img{
+    position: relative;
+    width: 94.5vh;
+}
+
+.section-3 .section-3-content-right{
+    position: absolute;
+    top: 280vh;
+    text-align: center;
+    right:300px;
+}
+
+
+.section-3 .section-3-content-left{
+    position: absolute;
+    top: 280vh;
+    text-align: center;
+    left:290px;
+}
+
+.section-3 .title-img{
+    font-size:40px;
+    padding-bottom: 30px;
+}
+
+.section-3 .text-img{
+    width: 310px;
+    line-height: 1.4rem;
+}
+
+.section-3 .title-style-left{
+    color: hsl(167, 40%, 24%);
+    font-weight: 800;
+}
+
+.section-3 .text-style-left{
+    color: hsl(167, 40%, 24%);
+    font-weight: 500;
+}
+
+.section-3 .title-style-right{
+    color: hsl(198, 62%, 26%);
+    font-weight: 800;
+}
+
+.section-3 .text-style-right{
+    color: hsl(198, 62%, 26%);
+    font-weight: 500;
+}
+
+.section-4{
+    background-color: #fffbf8;
+}
+
+
+.content-4{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-4-title{
+    position: absolute;
+    left: 69vh;
+    top: 320vh;
+    font-size: 35px;
+    text-transform: uppercase;
+    opacity: 30%;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-family: 'Fraunces', serif;
+}
+
+.card{
+    width: 300px;
+    padding: 40px;
+}
+
+.card img{
+    width: 80px;
+    border-radius: 70px;
+}
+
+.content-4 .card-text{
+    padding-top: 50px;
+    color:  hsl(198, 62%, 26%);
+    line-height: 1.5rem;
+
+}
+
+.card .card-name{
+    padding-top: 80px;
+    font-weight: 900;
+    color:  hsl(198, 62%, 26%);
+}
+.card .card-type{
+    padding-top: 10px;
+    opacity: 50%;
+}
+
+.section-5{
+    display: flex;
+}
+
+.content-5{
+    display: flex;
+}
+
+.content-5 img{
+    width: 47.2vh;
+    height: 350px;
+}
+
+
+.footer{
+    height: 30vh;
+    background-color:#90d4c5;
+    color: hsl(168, 34%, 41%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-menu{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-content .logo{
+    padding-left: 70px;
+}
+.footer-menu p{
+    padding: 20px;
+}
+
+.footer .media{
+    display: flex;
+    justify-content: space-around;
+}
+
