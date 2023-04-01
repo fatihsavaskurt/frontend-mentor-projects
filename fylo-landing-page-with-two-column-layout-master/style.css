@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+.nav-menu li{
+    display: flex;
+    margin: 10px;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.section-1 img{
+    width: 65vh;
+    padding-right: 100px;
+
+}
+
+.card-left{
+    margin-right: 40px;
+    margin-bottom: 150px;
+}
+
+.card-left .title{
+    font-size: 40px;
+    margin-right: 230px;
+    color:hsl(243, 87%, 12%);
+    font-weight: 600;
+}
+
+.card-left .text{
+    margin-right: 380px;
+    color: hsl(238, 22%, 44%);
+}
+
+.email input{
+    height: 30px;
+    width: 200px;
+}
+
+.email button{
+    width: 120px;
+    height: 35px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+}
+
+.section-2{
+    display: flex;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.section-2 .card-img{
+    width: 65vh;
+    padding-right: 100px;
+
+}
+
+.card-left .text-2{
+    margin-right: 380px;
+    color: hsl(238, 22%, 44%);
+}
+
+.card-left .quotes-content{
+    display: inline-block;
+    margin-right: 490px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 150cm;
+}
+
+.profile img{
+    margin: 20px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+
+.card-left .blank{
+    display: flex;
+    text-decoration: underline;
+    text-underline-position: initial;
+    color: green;
+}
+
+.blank img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.card-left .profile{
+    display: inline-flex;
+}
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: hsl(238, 22%, 44%);
+    
+}
+
+.section-left .title{
+    color: white;
+    font-size: 35px;
+}
+
+.section-left .text{
+    margin-right: 75vh ;
+    color: white;
+    width: 42vh;
+}
+
+.section-right .form{
+    display: inline-flex;
+    flex-direction: column;
+    height: 150px;
+    padding-top: 40px;
+}
+
+.section-right .right-btn{
+    padding-top: 10px;
+}
+
+
+.section-right button{
+    width: 150px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    height: 45px;
+    border: none;
+    text-align: center;
+}
+
+.section-4 input{
+    width: 300px;
+    height: 35px;
+}
+
+.attribution {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 11px;
+  }
+  
+  .attribution__link {  color: hsl(228, 45%, 54%); text-decoration: underline; }
+  .contact-info__item {  padding-bottom: 10%; }
+  
+  .footer-logo {
+    padding: 5% 3% 0;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+  }
+  
+  .footer-main {  display: flex; justify-content: space-around; }
+  .footer-nav {  display: grid; }
+  .footer-nav__menu {  padding-bottom: 8%; }
+  
+  .site-footer {
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  .social-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5%;
+  }
+  
+  .social-menu__link {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    text-align: center;
+    display: inline-block;
+  }
+  
