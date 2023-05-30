@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container{
+    margin-top: 150px;
+}
+
+.titles{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+
+.cards-container .card-box{
+    height: 220px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    width: 360px;
+    
+}
+
+.cards-container .flex{
+    margin-top: 90px;
+    background-color: white;
+}
+
+.cards-container .card-content{
+    width: 300px;
+    height: 200px;
+    margin: 32px;
+}
+
+.cards-wrap .card-content-wrap {
+        margin-top: 20px;
+        padding-top: 10px;
+        margin: 20px;
+}
+
+.card-content .card-icon{
+    float: right;
+
+}
+
+.card-content-wrap .card-text{
+    height: 50px;
+}
+
+.card-content .card-text{
+    height: 50px;
+}
+
+.card-content-wrap .card-icon{
+    float: right;
+}
+
+.card-calculator .line{
+    background-color: blue;
+    height: 5px;
+}
+
+.card-karma .line{
+    background-color: yellow;
+    height: 5px;
+}
+
+.card-builder .line{
+    background-color: red;
+    height: 5px;
+}
+
+.card-supervisor .line{
+    background-color: aqua;
+    height: 5px;
+}
+
+.titles .title-1{
+    font-size: 50px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 50;
+}
+
+.titles .title-2{
+    font-size: 50px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+
+}
